@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lightbox</title>
+    <link href="./lightbox/css/lightbox.css" rel="stylesheet" />
 </head>
 <body>
-        
+    <h1>Esempi per lightbox</h1>
+    <h1>Solo link</h1>
+    <a href="./img/mela.jpg" data-lightbox="Mela" data-title="Sono una mela">Behold la mela</a>
+
+
+    <h2>Miniatura e link</h2>
+
+    <a data-lightbox="mela" data-title="Sono una mela" href="./img/mela.jpg">
+        <img src="./img/mela.jpg" width="200">
+    </a>
+
+    <script src="./lightbox/js/lightbox-plus-jquery.js"></script>
+    <script src="./lightbox/js/lightbox.js"></script>
 </body>
 </html>
